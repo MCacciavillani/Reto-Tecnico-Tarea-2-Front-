@@ -97,7 +97,7 @@ fetchCompanys();
         <div className="fixed inset-0 flex items-center justify-center bg-black/40 z-50">
         <div className="bg-blue-900/60 h-1/2 flex flex-col justify-between backdrop-blur-md rounded-2xl shadow-2xl p-6 w-full max-w-md text-center">
           <p className="text-green-500 text-2xl font-semibold mt-40">Registro exitoso</p>
-          <button onClick={onClick} className="m-2 px-5 py-2 mt-5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-lg font-medium transition-colors">Cerrar</button>
+          <button onClick={onClick} className="m-2 px-5 py-2 mt-5 bg-blue-600 hover:bg-blue-700 rounded-lg text-lg font-medium transition-colors">Cerrar</button>
         </div>
         </div>
           }
