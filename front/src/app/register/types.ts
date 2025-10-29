@@ -18,6 +18,7 @@ export type User = {
   phone: string;
   email: string;
   messageCount: number;
+  role: Role;
 };
 
 export type Plan = {
@@ -26,6 +27,10 @@ export type Plan = {
   description: string;
   messageLimit: number;
   price: number;
+  type: string;
+  duration: number;
+  status: Status;
+  companies: Company[];
 };
 
 export type PlanHistories = {

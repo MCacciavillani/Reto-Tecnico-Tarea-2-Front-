@@ -37,7 +37,7 @@ export default function RootLayout({
           <Navbar/>
         </header>
 
-        <main className=" bg-blue-400 h-9/12">
+        <main className=" bg-blue-400 h-9/12 overflow-y-auto">
         {children}
         </main>
 
